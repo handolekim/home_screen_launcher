@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <title>Explore Learning</title>
+    </head>
+    <body>
+        <div class="Container">
+            <div class="Columns">
+                <div class="Column" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <figure draggable="true" id="icon1" ondragstart="drag(event)">
+                        <img class="Icon" src="./images/square-rounded-80.png" srcset="./images/square-rounded-128.png 128w, ./images/square-rounded-256.png 256w, ./images/square-rounded-512.png 512w" alt="Icon" title="Icon" draggable="false"/>
+                        <figcaption>Label</figcaption>
+                    </figure>
+                </div>
+                <div class="Column" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <figure draggable="true" id="icon2" ondragstart="drag(event)">
+                        <img class="Icon" src="./images/square-rounded-80.png" srcset="./images/square-rounded-128.png 128w, ./images/square-rounded-256.png 256w, ./images/square-rounded-512.png 512w" alt="Icon" title="Icon" draggable="false"/>
+                        <figcaption>Label</figcaption>
+                    </figure>
+                </div>
+                <div class="Column" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <figure draggable="true" id="icon3" ondragstart="drag(event)">
+                        <img class="Icon" src="./images/square-rounded-80.png" srcset="./images/square-rounded-128.png 128w, ./images/square-rounded-256.png 256w, ./images/square-rounded-512.png 512w" alt="Icon" title="Icon" draggable="false"/>
+                        <figcaption>Label</figcaption>
+                    </figure>
+                </div>
+                <div class="Column" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="Column" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="Column" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
